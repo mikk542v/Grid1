@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    gap: 20px;
+    padding: 50px 40px;
+}
+
+#box1, #box3, #box5, #box7, #box9, #box11, #box13, #box15 {
+    border: 2px solid darkgray;
+    border-radius: 20px;
+    background: #eee;
+    padding: 20px;
+    font-size: 22px;
+}
+
+#box2, #box4, #box6, #box8, #box10, #box12, #box14 {
+    border: 2px solid darkgray;
+    border-radius: 20px;
+    background: lightgray;
+    padding: 20px;
+    font-size: 22px;
+    
+}
